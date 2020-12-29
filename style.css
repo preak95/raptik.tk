@@ -1,0 +1,24 @@
+
+.fa {
+    padding: 4px;
+    width: 200px;
+}
+
+.fa::before {
+    display: inline-block;
+    /* .fa-fw */
+    width: 1.28571429em;
+    text-align: center;
+}
+
+.fa::after {
+    content: attr(class);
+    font-family: consolas, monospace;
+    font-size: 15px;
+    /* .code */
+    padding: 2px 4px;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    margin-left: 5px;
+}
